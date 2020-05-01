@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(150, 150, 150);
+    overflow-x: hidden;
+}
+
+#content {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+}
+
+.navTabs {
+    display: inline-block;
+    width: 32%;
+    background-color: rgb(150, 150, 150);
+    line-height: 50px;
+    border: 1px solid rgb(100, 100, 100);
+    border-bottom: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#selectedTab {
+    display: inline-block;
+    width: 32%;
+    background-color: rgb(100, 100, 100);
+    line-height: 50px;
+    border: 1px solid rgb(100, 100, 100);
+    border-bottom: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.homeContent {
+    background-color: rgb(100, 100, 100);
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+}
+
+#homeImg {
+    width: 100%;
+}
+
