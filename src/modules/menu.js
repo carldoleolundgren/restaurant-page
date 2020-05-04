@@ -38,11 +38,11 @@ function renderMenuPage() {
         menu.classList.add('homeContent');
 
         const menuArr = [
-            ['Sushi', '$10.99','<img src="../src/images/sushi.jpg">'],
-            ['Cinnamon Rolls', '$20.99', '<img src="../src/images/cinnamon-rolls.jpg">'],
-            ['Unseasoned Tofu', '$15.99', '<img src="../src/images/tofu.jpg">'],
-            ['Peanut Butter','$7.99/jar', '<img src="../src/images/peanut-butter.jpg">'],
-            ['Boiled Child\'s Sneaker', '$43.99', '<img src="../src/images/shoe.jpg">']
+            ['Sushi', '$10.99','<img src="images/sushi.jpg">'],
+            ['Cinnamon Rolls', '$20.99', '<img src="images/cinnamon-rolls.jpg">'],
+            ['Unseasoned Tofu', '$15.99', '<img src="images/tofu.jpg">'],
+            ['Peanut Butter','$7.99/jar', '<img src="images/peanut-butter.jpg">'],
+            ['Boiled Child\'s Sneaker', '$43.99', '<img src="images/shoe.jpg">']
         ]
         
         for (let i = 0; i < menuArr.length; i++) {

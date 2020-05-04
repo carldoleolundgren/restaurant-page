@@ -37,7 +37,7 @@ function renderHomePage() {
         const homeImg = document.createElement('img');
         homeImg.setAttribute(
             'src',
-            '../src/images/random-restaurant.jpg'
+            'images/random-restaurant.jpg'
         );
         homeImg.setAttribute('id', 'homeImg')
         homeContent.appendChild(homeImg);
