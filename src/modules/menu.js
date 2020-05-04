@@ -38,11 +38,11 @@ function renderMenuPage() {
         menu.classList.add('homeContent');
 
         const menuArr = [
-            ['Sushi', '$10.99','<img src="https://live.staticflickr.com/2788/4407068177_b519b5dcdb.jpg">'],
-            ['Cinnamon Rolls', '$20.99', '<img src="https://live.staticflickr.com/8515/8487563545_62e331cf57_b.jpg">'],
-            ['Unseasoned Tofu', '$15.99', '<img src="https://live.staticflickr.com/2175/2250506243_1a3d861f33_b.jpg">'],
-            ['Peanut Butter','$7.99/jar', '<img src="https://farm4.staticflickr.com/3850/14360041550_45d7bf9975_b.jpg">'],
-            ['Boiled Child\'s Sneaker', '$43.99', '<img src="https://api.creativecommons.engineering/t/600/https://live.staticflickr.com/8147/7699432298_8d04933a29_m.jpg">']
+            ['Sushi', '$10.99','<img src="../src/images/sushi.jpg">'],
+            ['Cinnamon Rolls', '$20.99', '<img src="../src/images/cinnamon-rolls.jpg">'],
+            ['Unseasoned Tofu', '$15.99', '<img src="../src/images/tofu.jpg">'],
+            ['Peanut Butter','$7.99/jar', '<img src="../src/images/peanut-butter.jpg">'],
+            ['Boiled Child\'s Sneaker', '$43.99', '<img src="../src/images/shoe.jpg">']
         ]
         
         for (let i = 0; i < menuArr.length; i++) {

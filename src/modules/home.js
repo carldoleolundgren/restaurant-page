@@ -37,7 +37,7 @@ function renderHomePage() {
         const homeImg = document.createElement('img');
         homeImg.setAttribute(
             'src',
-            'https://live.staticflickr.com/7383/9515928240_16f207315a_b.jpg'
+            '../src/images/random-restaurant.jpg'
         );
         homeImg.setAttribute('id', 'homeImg')
         homeContent.appendChild(homeImg);
