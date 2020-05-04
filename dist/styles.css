@@ -27,13 +27,9 @@ body {
 
 #selectedTab {
     display: inline-block;
-    width: 32%;
     background-color: rgb(100, 100, 100);
-    line-height: 50px;
     border: 1px solid rgb(100, 100, 100);
     border-bottom: 0px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
 }
 
 .homeContent {
@@ -44,36 +40,25 @@ body {
 }
 
 #homeImg {
-    width: 100%;
+    width: 80%;
 }
 
 .row {
     text-align: center;
+    width: 100%;
 }
 
 .cell {
-    float: left;
     line-height: 150px;
-}
-
-.itemName {
-    margin-left: 15%;
-    width: 150px;
-}
-
-.itemPrice {
-    margin-left: 20%;
-    margin-right: 20%;
-}
-
-.itemImg {
-    
+    float: left;
+    width: 33%;
 }
 
 .itemImg img {
     height: 150px;
     width: 150px;
     padding: 0px;
+    object-fit: cover;
 }
 
     

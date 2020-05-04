@@ -5,7 +5,7 @@ function renderContactPage() {
     const header = document.createElement('div');
     
         const restaurantName = document.createElement('h1');
-        restaurantName.innerText = 'Giontello\'s Restaurant';
+        restaurantName.innerText = 'Carl\'s Restaurant';
         header.appendChild(restaurantName);
 
 

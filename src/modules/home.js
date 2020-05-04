@@ -5,7 +5,7 @@ function renderHomePage() {
     const header = document.createElement('div');
     
         const restaurantName = document.createElement('h1');
-        restaurantName.innerText = 'Giontello\'s Restaurant';
+        restaurantName.innerText = 'Carl\'s Restaurant';
         header.appendChild(restaurantName);
 
 
@@ -31,7 +31,7 @@ function renderHomePage() {
     homeContent.classList.add('homeContent')
     
         const homeBlurb = document.createElement('p');
-        homeBlurb.innerText = 'The best restaurant east of the Missisippi and north of the Mason-Dixon line.';
+        homeBlurb.innerText = 'Carl\'s Restaurant, where you eat what we feed you.';
         homeContent.appendChild(homeBlurb);
 
         const homeImg = document.createElement('img');
