@@ -34,8 +34,6 @@ function renderContactPage() {
         contactBlurb.innerHTML = 'Contact Us: <br><br> carl.doleo.lundgren@gmail.com | <a href="https://github.com/carldoleolundgren">GitHub</a>';
         homeContent.appendChild(contactBlurb);
 
-        
-    
     content.appendChild(header);
     content.appendChild(navTabs);
     content.appendChild(homeContent);

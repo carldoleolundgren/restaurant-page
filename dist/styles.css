@@ -47,3 +47,33 @@ body {
     width: 100%;
 }
 
+.row {
+    text-align: center;
+}
+
+.cell {
+    float: left;
+    line-height: 150px;
+}
+
+.itemName {
+    margin-left: 15%;
+    width: 150px;
+}
+
+.itemPrice {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.itemImg {
+    
+}
+
+.itemImg img {
+    height: 150px;
+    width: 150px;
+    padding: 0px;
+}
+
+    
